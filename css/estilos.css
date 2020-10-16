@@ -1,0 +1,64 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    margin: auto;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    box-shadow: 1px 1px 1px black inset;
+    display: flex;
+    
+}
+
+.grid div:hover {
+    box-shadow: 2px 2px 2px black inset;
+}
+
+.bomb {
+    /* background-color: orange; */
+}
+
+.gameOver {
+    background-image: url(../img/bomb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checked {
+    background-color: #AAAAAA;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.checked:hover {
+    background-color: #AAAAAA;
+}
+
+.flag {
+    background-image: url(../img/flag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="button"]{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    width: 400px;
+    display: none;
+}
