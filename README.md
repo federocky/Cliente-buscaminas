@@ -18,5 +18,5 @@ A classic minesweeper made only with HTML CSS JS following along this great cour
 ## Author Info
 
 - Linkedin - [Federico Andrés Jácome Castañeda](https://www.linkedin.com/in/federicojacome/)
-- Website - [Portfolio](http://fedeandresdeveloper.online/)
+- Website - [Portfolio](https://federocky.github.io/PersonalWeb/)
 
